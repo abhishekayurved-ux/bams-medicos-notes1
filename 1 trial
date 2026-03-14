@@ -1,35 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAMS Medicos Notes</title>
+    <title>BAMS Medicos Notes - Ayur Sangraha</title>
+    <style>
+        /* This section makes the "Green Bars" and "Rounded" design work */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4fbf4; /* Light herbal white */
+            text-align: center;
+            color: #333;
+        }
+
+        header {
+            background: #1c7c54; /* Your Ayurvedic Green */
+            color: white;
+            padding: 30px 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header img {
+            border-radius: 12px;
+            margin-bottom: 10px;
+            background: white;
+        }
+
+        h1 { margin: 5px 0; font-size: 1.8rem; }
+        h2 { margin: 0; font-weight: 300; font-style: italic; font-size: 1.2rem; }
+        .credits { display: block; margin-top: 10px; font-size: 0.9rem; opacity: 0.9; }
+
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .year-header {
+            text-align: left;
+            color: #1c7c54;
+            border-left: 5px solid #1c7c54;
+            padding-left: 10px;
+            margin: 30px 0 15px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* The Rounded Bar Styling */
+        .subject-bar {
+            display: block;
+            background: white;
+            color: #1c7c54;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border-radius: 50px; /* This creates the "Pill" shape */
+            border: 2px solid #1c7c54;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        /* Changes color when student clicks/hovers */
+        .subject-bar:hover {
+            background: #1c7c54;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            background: #1c7c54;
+            color: white;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        .footer-link {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .footer-link img {
+            background: white;
+            border-radius: 5px;
+            padding: 2px;
+        }
+    </style>
 </head>
-<body style="margin:0; font-family: sans-serif; background-color: #f4f4f4; text-align: center;">
+<body>
 
-    <header style="background:#1c7c54; color:white; padding:30px;">
-        <img src="@bams_medicos_notes_20260108_173652_0000.png" width="120" style="border-radius:10px;">
-        <h1>BAMS Medicos Notes</h1>
-        <p>Ayur Sangraha | By Kiran Kendre</p>
-    </header>
+<header>
+    <img src="@bams_medicos_notes_20260108_173652_0000.png" width="130" alt="Logo">
+    <h1>BAMS Medicos Notes</h1>
+    <h2>Ayur Sangraha</h2>
+    <span class="credits">Notes by Kiran Kendre</span>
+</header>
 
-    <div style="max-width:500px; margin: 20px auto; padding:10px;">
-        
-        <h3 style="color:#1c7c54; text-align:left; border-bottom: 2px solid #1c7c54;">1st Year Subjects</h3>
-        
-        <a href="YOUR_LINK_HERE" style="display:block; background:white; color:#1c7c54; padding:15px; margin-bottom:10px; border-radius:30px; border:2px solid #1c7c54; text-decoration:none; font-weight:bold;">
-            Padartha Vigyan
-        </a>
+<div class="container">
 
-        <a href="YOUR_LINK_HERE" style="display:block; background:white; color:#1c7c54; padding:15px; margin-bottom:10px; border-radius:30px; border:2px solid #1c7c54; text-decoration:none; font-weight:bold;">
-            Kriya Sharira
-        </a>
+    <h3 class="year-header">1st Professional</h3>
+    <a href="#" class="subject-bar">Padartha Vigyan</a>
+    <a href="#" class="subject-bar">Samskritam evam Ayurved Itihas</a>
+    <a href="#" class="subject-bar">Kriya Sharira</a>
+    <a href="#" class="subject-bar">Rachana Sharira</a>
+    <a href="#" class="subject-bar">Samhita Adhyayan – 1</a>
 
-        </div>
+    <h3 class="year-header">2nd Professional</h3>
+    <a href="#" class="subject-bar">Dravyaguna Vigyan</a>
+    <a href="#" class="subject-bar">Rasashastra evam Bhaishajya Kalpana</a>
+    <a href="#" class="subject-bar">Roga Nidan evam Vikriti Vigyan</a>
+    <a href="#" class="subject-bar">Agad Tantra evam Vidhi Vaidyaka</a>
+    <a href="#" class="subject-bar">Samhita Adhyayan – 2</a>
 
-    <footer style="background:#1c7c54; color:white; padding:20px; margin-top:40px;">
-        <p>Visit BAMS Medicos Notes Instagram for more</p>
-        <img src="instagram.png" width="25">
-    </footer>
+    <h3 class="year-header">3rd Professional</h3>
+    <a href="#" class="subject-bar">Swasthavritta evam Yoga</a>
+    <a href="#" class="subject-bar">Prasuti Tantra evam Stree Roga</a>
+    <a href="#" class="subject-bar">Kaumarabhritya</a>
+    <a href="#" class="subject-bar">Samhita Adhyayan – 3</a>
+
+    <h3 class="year-header">Final Professional</h3>
+    <a href="#" class="subject-bar">Kayachikitsa</a>
+    <a href="#" class="subject-bar">Panchakarma & Upakarma</a>
+    <a href="#" class="subject-bar">Shalya Tantra</a>
+    <a href="#" class="subject-bar">Shalakya Tantra</a>
+    <a href="#" class="subject-bar">Atyaikachikitsa</a>
+    <a href="#" class="subject-bar">Research Methodology & Medical Statistics</a>
+
+</div>
+
+<footer>
+    <a href="https://www.instagram.com/bams_medicos_notes/" class="footer-link">
+        <span>Visit BAMS Medicos Notes Instagram for more</span>
+        <img src="instagram.png" width="25" alt="Instagram">
+    </a>
+</footer>
 
 </body>
 </html>
