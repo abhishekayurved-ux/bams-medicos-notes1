@@ -1,154 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAMS Medicos Notes - Ayur Sangraha</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-green: #2d5a27;
-            --light-green: #e8f5e9;
-            --accent-green: #4caf50;
-            --text-dark: #333;
-            --white: #ffffff;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9fbf9;
-            color: var(--text-dark);
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: var(--primary-green);
-            color: var(--white);
-            padding: 2rem 1rem;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        header h1 { margin: 0; font-size: 2.2rem; }
-        header h2 { margin: 5px 0; font-weight: 300; font-style: italic; opacity: 0.9; }
-        header p { margin-top: 10px; font-size: 0.9rem; letter-spacing: 1px; }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 15px;
-        }
-
-        .year-section {
-            margin-bottom: 30px;
-        }
-
-        .year-title {
-            color: var(--primary-green);
-            border-bottom: 2px solid var(--accent-green);
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            font-size: 1.4rem;
-        }
-
-        .subject-bar {
-            display: block;
-            background-color: var(--white);
-            color: var(--primary-green);
-            text-decoration: none;
-            padding: 15px 20px;
-            margin-bottom: 10px;
-            border-radius: 50px; /* Rounded pill shape */
-            border: 1px solid var(--accent-green);
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-
-        .subject-bar:hover {
-            background-color: var(--primary-green);
-            color: var(--white);
-            transform: translateX(5px);
-        }
-
-        footer {
-            background-color: #f1f1f1;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            border-top: 1px solid #ddd;
-        }
-
-        .insta-link {
-            color: #E1306C; /* Instagram Pink */
-            text-decoration: none;
-            font-weight: bold;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        /* Mobile Adjustments */
-        @media (max-width: 600px) {
-            header h1 { font-size: 1.8rem; }
-            .subject-bar { font-size: 0.95rem; text-align: center; }
-        }
-    </style>
+    <title>BAMS Medicos Notes</title>
 </head>
-<body>
+<body style="margin:0; font-family: sans-serif; background-color: #f4f4f4; text-align: center;">
 
-<header>
-    <h1>BAMS Medicos Notes</h1>
-    <h2>Ayur Sangraha</h2>
-    <p>Notes by Kiran Kendre</p>
-</header>
+    <header style="background:#1c7c54; color:white; padding:30px;">
+        <img src="@bams_medicos_notes_20260108_173652_0000.png" width="120" style="border-radius:10px;">
+        <h1>BAMS Medicos Notes</h1>
+        <p>Ayur Sangraha | By Kiran Kendre</p>
+    </header>
 
-<div class="container">
-    
-    <div class="year-section">
-        <h3 class="year-title">First Professional BAMS</h3>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Padartha Vigyan</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Samskritam evam Ayurved Itihas</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Kriya Sharira</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Rachana Sharira</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Samhita Adhyayan – 1</a>
-    </div>
+    <div style="max-width:500px; margin: 20px auto; padding:10px;">
+        
+        <h3 style="color:#1c7c54; text-align:left; border-bottom: 2px solid #1c7c54;">1st Year Subjects</h3>
+        
+        <a href="YOUR_LINK_HERE" style="display:block; background:white; color:#1c7c54; padding:15px; margin-bottom:10px; border-radius:30px; border:2px solid #1c7c54; text-decoration:none; font-weight:bold;">
+            Padartha Vigyan
+        </a>
 
-    <div class="year-section">
-        <h3 class="year-title">Second Professional BAMS</h3>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Dravyaguna Vigyan</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Rasashastra evam Bhaishajya Kalpana</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Roga Nidan evam Vikriti Vigyan</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Agad Tantra evam Vidhi Vaidyaka</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Samhita Adhyayan – 2</a>
-    </div>
+        <a href="YOUR_LINK_HERE" style="display:block; background:white; color:#1c7c54; padding:15px; margin-bottom:10px; border-radius:30px; border:2px solid #1c7c54; text-decoration:none; font-weight:bold;">
+            Kriya Sharira
+        </a>
 
-    <div class="year-section">
-        <h3 class="year-title">Third Professional BAMS</h3>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Swasthavritta evam Yoga</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Prasuti Tantra evam Stree Roga</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Kaumarabhritya</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Charak Samhita (Uttarardha)</a>
-    </div>
+        </div>
 
-    <div class="year-section">
-        <h3 class="year-title">Final Professional BAMS</h3>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Kayachikitsa</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Panchakarma & Upakarma</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Shalya Tantra</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Shalakya Tantra</a>
-        <a href="YOUR_GD_LINK_HERE" class="subject-bar">Research Methodology & Medical Statistics</a>
-    </div>
-
-</div>
-
-<footer>
-    <a href="https://instagram.com/bams_medicos_notes" class="insta-link">
-        <i class="fab fa-instagram"></i> Visit BAMS Medicos Notes Instagram for more
-    </a>
-</footer>
+    <footer style="background:#1c7c54; color:white; padding:20px; margin-top:40px;">
+        <p>Visit BAMS Medicos Notes Instagram for more</p>
+        <img src="instagram.png" width="25">
+    </footer>
 
 </body>
 </html>
